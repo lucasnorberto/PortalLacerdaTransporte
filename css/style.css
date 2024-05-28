@@ -1,7 +1,7 @@
 @import url("font-awesome.min.css");
 body {
   font-family: "Poppins", sans-serif;
-  color: #0c0c0c;
+  color: #3e3a3af5;
   background-color: #ffffff;
 }
 
@@ -118,7 +118,7 @@ body {
   width: 100%;
   height: 100%;
   background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.414)), to(rgba(0, 0, 0, 0.35)));
-  background: linear-gradient(to right, rgba(34, 34, 34, 0.859), rgba(0, 0, 0, 0.35));
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.859), rgba(255, 255, 255, 0.35));
 }
 
 .sub_page .hero_area {
@@ -167,7 +167,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #ffffff;
+  color: #fbfbfb;
   font-size: 15px;
 }
 
@@ -195,7 +195,7 @@ body {
 .custom_nav-container .navbar-nav .nav-item .nav-link {
   padding: 0;
   padding: 35px 15px 10px 15px;
-  color: #ffffff;
+  color: #3e3a3af5;
   text-align: center;
   text-transform: uppercase;
   -webkit-transition: all .2s;
@@ -203,7 +203,7 @@ body {
 }
 
 .custom_nav-container .navbar-nav .nav-item:hover .nav-link, .custom_nav-container .navbar-nav .nav-item.active .nav-link {
-  background-color: #1c1c1c;
+  background-color: #EA8319;
 }
 
 a,
@@ -239,7 +239,7 @@ a:focus {
 
 .navbar-brand span {
   font-weight: bold;
-  color: #ffffff;
+  color: #3e3a3af5;
   font-size: 24px;
 }
 
@@ -259,7 +259,7 @@ a:focus {
   display: block;
   width: 32px;
   height: 4px;
-  background-color: #ffffff;
+  background-color: #3e3a3af5;
   border-radius: 15px;
   margin: 7px 0;
   -webkit-transition: all 0.3s;
@@ -274,7 +274,7 @@ a:focus {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #ffffff;
+  background-color: #3e3a3af5;
   border-radius: 15px;
   top: -10px;
   -webkit-transition: all 0.3s;
@@ -317,7 +317,7 @@ a:focus {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  color: #ffffff;
+  color: #3e3a3af5;
 }
 
 .slider_section .row {
@@ -334,7 +334,7 @@ a:focus {
 .slider_section .detail-box h1 {
   text-transform: uppercase;
   font-size: 3rem;
-  color: #ffffff;
+  color: #3e3a3af5;
   font-weight: 600;
 }
 
@@ -351,44 +351,52 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   margin-top: 30px;
+  border-radius: 15px;
+  
 }
 
 .slider_section .detail-box .btn-box a {
   width: 180px;
   text-align: center;
   margin: 5px;
+  border-radius: 15px;
+  
 }
 
 .slider_section .detail-box .btn-box .btn-1 {
   display: inline-block;
   padding: 10px 35px;
-  background-color: #ffffff;
-  color: #000000;
+  background-color: #3e3a3af5;
+  color: #fffffff5;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   border: 1px solid transparent;
+  border-radius: 15px;
 }
 
 .slider_section .detail-box .btn-box .btn-1:hover {
   background-color: transparent;
-  border-color: #ffffff;
-  color: #ffffff;
+  border-color: #3e3a3af5;
+  color: #3e3a3af5;
+  border-radius: 15px;
 }
 
 .slider_section .detail-box .btn-box .btn-2 {
   display: inline-block;
   padding: 10px 35px;
   background-color: #EA8319;
-  color: #ffffff;
+  color: #fffffff5;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   border: 1px solid transparent;
+  border-radius: 15px;
 }
 
 .slider_section .detail-box .btn-box .btn-2:hover {
   background-color: transparent;
   border-color: #EA8319;
   color: #EA8319;
+  border-radius: 15px;
 }
 
 .slider_section .img-box {
@@ -578,9 +586,11 @@ a:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  border-radius: 15px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+
 }
 
 .client_section .carousel-control-prev,
@@ -672,6 +682,7 @@ a:focus {
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 25px;
+  border-radius: 15px;
 }
 
 .contact_section .contact_form-container button {
@@ -771,6 +782,7 @@ a:focus {
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 45px;
+  border-radius: 15px;
 }
 
 .team_section .btn-box a {
@@ -781,12 +793,14 @@ a:focus {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   border: 1px solid transparent;
+  border-radius: 15px;
 }
 
 .team_section .btn-box a:hover {
   background-color: transparent;
   border-color: #EA8319;
   color: #EA8319;
+  border-radius: 15px;
 }
 
 .info_section {
